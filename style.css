@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&family=Style+Script&display=swap');
+
+:root{
+    --mainColor:#FD6B00;
+    --backgroundFadeColor:#F6BC9299;
+    --fadeText:#7D7D7D;
+    --whiteText:#f8f8f8;
+    --primaryText:#000000;
+
+}
+
+*{
+    margin: 0;padding: 0;
+    font-family: 'Inter','Poppins',sans-serif;
+}
+.fadetext{
+    color: var(--fadeText);
+}
+
+/* NAVBAR */
+
+nav{
+    background-color: #FD6B00;
+    width: 100%;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    position: relative;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+
+}
+.navbarList{
+  width: min-content;
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 5px;
+
+   position: absolute;
+   bottom: -40%;
+   left: 30%;
+}
+.navbarList li{
+    padding: 10px;
+    font-weight: 500;
+    color: var();
+}
+nav button{
+    all: unset;
+position: absolute;
+right: -129px;
+background-color: var(--mainColor);
+padding: 10px 25px;
+border-radius: 8px;
+
+font-weight: 600;
+color: var(--whiteText);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(-4px -4px 4px rgba(0, 0, 0, 0.25));
+}
+
+nav img{
+    width: 60px;
+}
+
+
+/* BANNER SECTiON */
+
+.bannerSection{
+    background-color:var(--backgroundFadeColor) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.bannerSection>.desc span{
+    color: var(--mainColor);
+}
+.bannerSection h2{
+    font-size: 3rem;
+}
+.bannerSection img{
+    width: 100%;
+}
